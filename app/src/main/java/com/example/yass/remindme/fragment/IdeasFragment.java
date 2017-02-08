@@ -1,5 +1,6 @@
 package com.example.yass.remindme.fragment;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -13,18 +14,19 @@ import com.example.yass.remindme.R;
  * Created by yass on 1/29/17.
  */
 
-public class ExampleFragment extends Fragment {
+public class IdeasFragment extends AbstractTabFragment {
 
     private static final int LAYOUT = R.layout.fragment_example_layout;
 
-    private View view;
-
-    public static ExampleFragment getInstance(){
+    public static IdeasFragment getInstance(Context context){
         Bundle bundle = new Bundle();
-        ExampleFragment exampleFragment = new ExampleFragment();
-        exampleFragment.setArguments(bundle);
+        IdeasFragment fragment = new IdeasFragment();
+        fragment.setArguments(bundle);
+        fragment.setArguments(bundle);
+        fragment.setContext(context);
+        fragment.setTitle(context.getString(R.string.tab_item_ideas));
 
-        return exampleFragment;
+        return fragment;
     }
 
     @Nullable
@@ -33,5 +35,9 @@ public class ExampleFragment extends Fragment {
         view = inflater.inflate(LAYOUT, container, false);
 
         return view;
+    }
+
+    public void setContext(Context context) {
+        this.context = context;
     }
 }
