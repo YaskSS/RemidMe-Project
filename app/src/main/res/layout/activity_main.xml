@@ -45,16 +45,6 @@
 
         </android.support.v4.view.ViewPager>
 
-        <android.support.design.widget.FloatingActionButton
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/fab"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_add_white_18dp"
-            android:layout_gravity="end|bottom"
-            app:backgroundTint="@color/colorPrimary"
-            android:layout_marginBottom="@dimen/fab_margin"
-            android:layout_marginRight="@dimen/fab_margin"/>
     </android.support.design.widget.CoordinatorLayout>
 
     <android.support.design.widget.NavigationView

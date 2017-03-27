@@ -42,7 +42,8 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:25.1.0'
     compile 'org.springframework.android:spring-android-rest-template:2.0.0.M3'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.8.6'
-
+    compile 'com.loopeer.library:cardstack:1.0.2'
+    compile 'com.afollestad.material-dialogs:core:0.9.3.0'
 }
 repositories {
     maven {

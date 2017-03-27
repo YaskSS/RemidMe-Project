@@ -5,13 +5,15 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.example.yass.remindme.R;
-import com.example.yass.remindme.dto.RemindDto;
+import com.example.yass.remindme.db.SharedPreferencesHelper;
+import com.example.yass.remindme.models.Remind;
+import com.example.yass.remindme.models.ToDo;
+import com.example.yass.remindme.models.UserAction;
 import com.example.yass.remindme.fragment.AbstractTabFragment;
-import com.example.yass.remindme.fragment.BirthdayFragment;
+import com.example.yass.remindme.fragment.WordsFragment;
 import com.example.yass.remindme.fragment.HistoryFragment;
-import com.example.yass.remindme.fragment.IdeasFragment;
-import com.example.yass.remindme.fragment.ToD0Fragment;
+import com.example.yass.remindme.fragment.NotificationFragment;
+import com.example.yass.remindme.fragment.ToDoFragment;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -27,14 +29,22 @@ public class TabsFragmentAdapter extends FragmentPagerAdapter {
     private Map<Integer, AbstractTabFragment> tabs;
     private Context context;
 
-    private List<RemindDto> data;
+    private List<UserAction> data;
+    private ArrayList<Remind> reminds;
+    private ArrayList<ToDo> toDos;
     private HistoryFragment historyFragment;
+    private NotificationFragment notificationFragment;
+    private ToDoFragment toDoFragment;
 
     public TabsFragmentAdapter(Context context, FragmentManager fm) {
         super(fm);
-
+        /*ArrayList<ToDo> rsdgsdg = new ArrayList<ToDo>();
+        rsdgsdg.add(new ToDo("",""));
+        SharedPreferencesHelper.getInstance().saveNewToDo(rsdgsdg);*/
         this.context = context;
-        this.data = new ArrayList<>();
+        this.data = SharedPreferencesHelper.getInstance().getListUserActions();
+        this.reminds = SharedPreferencesHelper.getInstance().getListRemind();
+        this.toDos = SharedPreferencesHelper.getInstance().getToDos();
         initTabsMap(context);
     }
 
@@ -45,9 +55,7 @@ public class TabsFragmentAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-
         return tabs.get(position);
-
     }
 
 
@@ -60,15 +68,16 @@ public class TabsFragmentAdapter extends FragmentPagerAdapter {
         tabs = new HashMap<>();
 
         historyFragment = HistoryFragment.getInstance (context, data);
-
+        notificationFragment = NotificationFragment.getInstance(context, reminds);
+        toDoFragment = ToDoFragment.getInstance(context, toDos);
         tabs.put(0, historyFragment);
-        tabs.put(1, IdeasFragment.getInstance(context));
-        tabs.put(2, ToD0Fragment.getInstance(context));
-        tabs.put(3, BirthdayFragment.getInstance(context));
+        tabs.put(1, notificationFragment);
+        tabs.put(2, toDoFragment);
+        tabs.put(3, WordsFragment.getInstance(context));
     }
 
-    public void setData(List<RemindDto> data) {
+    public void setData(List<UserAction> data) {
         this.data = data;
-        historyFragment.refreshData(data);
+
     }
 }

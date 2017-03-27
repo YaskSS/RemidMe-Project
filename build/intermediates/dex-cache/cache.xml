@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/yass/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.6/2ef7b1cc34de149600f5e75bc2d5bf40de894e60/jackson-core-2.8.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2ef7b1cc34de149600f5e75bc2d5bf40de894e60">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.8.6_cba7b5a5b220d1165903a684913a242962b11ff8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/c32db952b85579d19e6cedcb0771789d7f0e50bc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a86663d728e8ac5905a0e3d4bf801370fe9a76fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/5fab88444e213dc00b18be46b7f28e9660c199d2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a1438c2d3a61acda070090370cc61f8f48f0a566/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_81f2dec6bcbd95eb81fc7b3b1d5d1f42f81e44f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/a0724e644b7152516e29bad9c863f640b9172b3f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9344c9c23ba6e343c0e1650df7cde56fee1a0ffe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/d0eda4fa69c9984dbae5d9838c4f02b920c0bf4f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_09ed629b51a710523035dfeef880a034b9b9a5e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.gradle/caches/modules-2/files-2.1/org.springframework.android/spring-android-rest-template/2.0.0.M3/204c594c2a47073b30d3cb14ca69ba1066c4e44c/spring-android-rest-template-2.0.0.M3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="204c594c2a47073b30d3cb14ca69ba1066c4e44c">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/spring-android-rest-template-2.0.0.M3_2a1f40efb2dfd0d7206a38ddac0414d2a2b3bc33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/8dfb4de0d334d223bc75968429e10878a0bacf42/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8c84929581e1518d1168608366be2015c1f2595b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/836c348085cb3317ac56ef358d1b65a14cb14da2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a846ddbf5bf88dee5f89d4dffe22c864f576d9b0">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_51d111586ca01af60660df54bc0e10e2eaa117a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/45b426f7796b741035581a176744d91090e2e6fb/jackson-annotations-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45b426f7796b741035581a176744d91090e2e6fb">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.8.0_a06590af07d49a91314328e761d185059ef236e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/f26a75341dee25bd8acbc1c79a6e8f7464e57330/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="de7a7419adf97a681f96281fdf38be62861047d9">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_92b968da73d5b371de62e5c6b4b49a4113308489/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/8c9f0fcaabb8342cb976b2c51156b8616355c466/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="058253c7da6cf5cb545922d07fcc2cd19d5d0ce1">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ee5e617f1d42ea4fe8965d1957b49ee0b608cc78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.6/c43de61f74ecc61322ef8f402837ba65b0aa2bf4/jackson-databind-2.8.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c43de61f74ecc61322ef8f402837ba65b0aa2bf4">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.8.6_350a13f033304b2106fe53b9d4a04c46851d2c6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/511236d2919bc33bdefa09d1918f7478c732c989/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a2903c5196b61ad13a21cae50f2b4b151de7f19a">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a77611aa0250d927ebd5aa0026a475655388fb08/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/cf474d56ff8591ba95d10239b9471a7bbe634b9c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cfff76bde2a746055eb1a4ea6f6121190afffa62/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/704113ba1279bc0380772556cdc82002e1247c2b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_776235916978c0b391466f16fd6bdc28988c9ea2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_60a02536ceb2d3bf9eabd4de9610641942b556e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/a441f54a3aa75a70d1bdf340edd5e2a7f8fe136c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="196889103665d7eae17105a5a78f141086044301">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7dbb8aad3a74eed7e17516e45ac9af966714948c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.gradle/caches/modules-2/files-2.1/org.springframework.android/spring-android-core/2.0.0.M3/c7e2c60943248bbce5de6cf552592281ed2296b/spring-android-core-2.0.0.M3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0c7e2c60943248bbce5de6cf552592281ed2296b">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/spring-android-core-2.0.0.M3_beb7e0bc63469772bec8080a3becbe50a62c694f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/dada51e3601d293a255113fab92d387d68b378d2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_476e49a96900afeb3f464dbdcbc166baee376ec2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_f5900676c79fb45b7e865e8abe63b7c941eb4e0b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/bba8e6e371a146b47b7bcc15358cec710b68372f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4fc9f898b6ad8604c0f321a81e438b18ce00de1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/f8f30c09ff5458d03cde7f298d32acb1cf81060e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6d88ec155032460a5f4efa723a04c460d3391193">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fcbd3165f2fc9349f94e425469f354237ecc7a97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7a6a24e3a700bafeb45e15fe3ff71bf9b61bfdf0">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_88efa0ec1d349b50aa5853d622fc6c693dbadccd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/5b08caccac9cc897fc3ad61d9869341940f6ce40/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_817803cdcba681ec0d0b0a7bc9f6ce182a7247f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/c66235d97106881e3717dbf41cb9e11181604a9e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_69df6eff00adc08ead76a6caa97eacbda84c23ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/f5d6895af720ed3512d535c1341aa3b48b78ff1b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d293a927d860488b54a34ddf9da5e96ceca1286d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/yass/.android/build-cache/c6ea2c05dedcaa7a09c659e8b6d7c0a6a3d23a41/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/home/yass/StudioProjects/RemidMe-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6524694925eea3e0cfd5143464cad35d12812986/classes.dex" />
+    </item>
+
+</items>

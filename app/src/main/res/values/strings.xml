@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">RemindMe Beta</string>
+    <string name="search_title">Search</string>
+    <string name="menu_item_notification">Напоминание</string>
+    <string name="view_navigation_open">Open</string>
+    <string name="view_navigation_close">Close</string>
+
+    <string name="tab_item_history">History</string>
+    <string name="tab_item_todo">TODO</string>
+    <string name="tab_item_remind">Remind</string>
+    <string name="tab_item_words">Words</string>
+    <string name="menu_item_history">История</string>
+    <string name="menu_item_todo">Выполнить</string>
+    <string name="menu_item_words">Слова</string>
+    <string name="save">Сохранить</string>
+    <string name="refactor">Редоктирование</string>
+    <string name="create_new_notification">Создание нового напоминания</string>
+    <string name="note">ввести заметку</string>
+    <string name="input_prefill">pre</string>
+    <string name="exit">отмена</string>
+    <string name="enter_choice">Тип уведомления</string>
+    <string name="read_remind">Прочесть</string>
+    <string name="write_remind">Выполнить упражнение</string>
+    <string name="read">Выучить</string>
+    <string name="repeat">Повторить</string>
+    <string name="new_word">Название темы</string>
+    <string name="new_name_word">новое название</string>
+    <string name="create_new_toDo">Создание нового действия</string>
+    <string name="title">заголовок</string>
+    <string name="remind">Напоминание</string>
+    <string name="refactored">Изменено</string>
+    <string name="created">Создано</string>
+    <string name="deleted">Удалено</string>
+    <string name="action">Действие</string>
+    <string name="word">Тема слов</string>
+    <string name="word_theme">тема</string>
+</resources>

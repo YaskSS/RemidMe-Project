@@ -1,6 +1,6 @@
 package com.example.yass.remindme;
 
-import android.os.AsyncTask;
+import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -12,33 +12,33 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Toast;
 
 import com.example.yass.remindme.adapter.TabsFragmentAdapter;
-import com.example.yass.remindme.dto.RemindDto;
-
-import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
-import org.springframework.web.client.RestTemplate;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by yass on 1/28/17.
  */
 
-public class MainActivity extends AppCompatActivity  {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private static final int LAYOUT = R.layout.activity_main;
+    private static final String TAG = "MainActivity";
 
     private Toolbar toolbar;
     private DrawerLayout drawerLayout;
     private ViewPager viewPager;
+    private static Context context;
 
-    TabsFragmentAdapter adapter;
+    private TabsFragmentAdapter adapter;
+
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
+        context = base;
+    }
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity  {
 
         initStatusBar();
         initToolbar();
-        initNavigationView();
         initTabs();
+        initNavigationView();
     }
 
     private void initStatusBar() {
@@ -84,53 +84,65 @@ public class MainActivity extends AppCompatActivity  {
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.navigationView);
-        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                drawerLayout.closeDrawers();
-
-                switch (item.getItemId()){
-                    case R.id.actionNotificationItem:
-                        showNotificationTab();
-                }
-
-                return true;
-            }
-        });
+        navigationView.setNavigationItemSelectedListener(this);
     }
-
-
 
     private void initTabs() {
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         adapter = new TabsFragmentAdapter(this, getSupportFragmentManager());
         viewPager.setAdapter(adapter);
 
-       // new RemindTask().execute();
+        // new RemindTask().execute();
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         tabLayout.setupWithViewPager(viewPager);
     }
 
-    private void showNotificationTab(){
-        viewPager.setCurrentItem(Constants.TAB_TWO);
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        drawerLayout.closeDrawers();
+        int id = item.getItemId();
+        adapter.notifyDataSetChanged();
+        switch (id) {
+            case R.id.actionHistoryItem:
+                viewPager.setCurrentItem(Constants.TAB_ONE);
+                Log.i(TAG, String.valueOf(viewPager.getCurrentItem()));
+                return true;
+            case R.id.actionNotificationItem:
+                viewPager.setCurrentItem(Constants.TAB_TWO);
+                Log.i(TAG, String.valueOf(viewPager.getCurrentItem()));
+                return true;
+            case R.id.actionToDoItem:
+                viewPager.setCurrentItem(Constants.TAB_THREE);
+                Log.i(TAG, String.valueOf(viewPager.getCurrentItem()));
+                return true;
+            case R.id.actionWordsItem:
+                viewPager.setCurrentItem(Constants.TAB_FOUR);
+                Log.i(TAG, String.valueOf(viewPager.getCurrentItem()));
+                return true;
+        }
+        return false;
     }
 
-    private class RemindTask extends AsyncTask<Void, Void, RemindDto>{
+   /* private class RemindTask extends AsyncTask<Void, Void, UserAction>{
 
         @Override
-        protected RemindDto doInBackground(Void... voids) {
+        protected UserAction doInBackground(Void... voids) {
 
             RestTemplate template = new RestTemplate();
             template.getMessageConverters().add(new  MappingJackson2HttpMessageConverter());
-            return template.getForObject(Constants.URL.GER_REMIND_ITEM, RemindDto.class);
+            return template.getForObject(Constants.URL.GER_REMIND_ITEM, UserAction.class);
         }
 
         @Override
-        protected void onPostExecute(RemindDto remindDto) {
-            List<RemindDto> list = new ArrayList<>();
+        protected void onPostExecute(UserAction remindDto) {
+            List<UserAction> list = new ArrayList<>();
             list.add(remindDto);
             adapter.setData(list);
         }
+    }*/
+
+    public static Context getContext() {
+        return context;
     }
 }
